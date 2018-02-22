@@ -55,3 +55,6 @@ var result = $exampleFunc({
 }, true);
 
 ```
+
+## License
+MIT
