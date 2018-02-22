@@ -4,6 +4,11 @@ Add properties to functions using Proxies for API documenation and other stuffs.
 
 Useful for libraries w/ a need to deliver convenient API access.
 
+## Installation
+```
+npm i --save function-properties
+```
+
 ## Example
 ```javascript
 const functionProperties = require('function-properties');
