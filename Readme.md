@@ -1,4 +1,4 @@
-# function-properties
+# function-properties [![Build Status](https://travis-ci.org/iamdevonbutler/function-properties.svg?branch=master)](https://travis-ci.org/iamdevonbutler/function-properties)
 
 Add properties to functions using Proxies for API documenation and other stuffs.
 
