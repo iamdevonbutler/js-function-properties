@@ -10,6 +10,12 @@
   "scripts": {
     "test": "NODE_ENV=test ./node_modules/.bin/mocha --ui bdd --bail --colors ./tests/**/*.js"
   },
+  "keywords": [
+    "js",
+    "node",
+    "javascript",
+    "documenation"
+  ],
   "repository": {
     "type": "git",
     "url": "git+https://github.com/iamdevonbutler/function-properties.git"
