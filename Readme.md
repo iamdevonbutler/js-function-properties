@@ -2,10 +2,13 @@
 
 Add properties to functions using Proxies for API documenation and other stuffs.
 
+Useful for libraries w/ a need to deliver convenient API access.
+
 ## Example
 ```javascript
-const objectInterface = require('object-interface');
 const functionProperties = require('function-properties');
+
+var exampleFunc = function(obj, setting) {};
 
 var api = {
   api: {
@@ -35,13 +38,13 @@ var api = {
   }
 };
 
-var interface = functionProperties(objectInterface, api);
+var interface = functionProperties(exampleFunc, api);
 
-console.log(interface.api); // Logs the API obect from above.
+console.log(exampleFunc.api); // Logs the API Object from above.
 
-var obj = interface({
+var result = exampleFunc({
   a: 1,
   b: 2,
-});
+}, true);
 
 ```
