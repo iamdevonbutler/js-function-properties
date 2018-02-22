@@ -10,7 +10,7 @@
       default: true,
       description: 'By default returns a new Object and does not modify the original.',
     },
-    returns: {
+    return: {
       type: 'Object',
       description: 'Returned Object is wrapped w/ the following properties and methods.',
       properties: {
