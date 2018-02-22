@@ -14,11 +14,13 @@ var api = {
   api: {
     param1: {
       type: 'Object',
+      name: 'obj',
       description: 'src Object to wrap w/ interface.',
+      required: true,
     },
     param2: {
       type: 'Boolean',
-      name: 'clone',
+      name: 'setting',
       default: true,
       description: 'By default returns a new Object and does not modify the original.',
     },
