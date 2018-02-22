@@ -40,11 +40,11 @@ var api = {
   }
 };
 
-var interface = functionProperties(exampleFunc, api);
+var $exampleFunc = functionProperties(exampleFunc, api);
 
-console.log(exampleFunc.api); // Logs the API Object from above.
+console.log($exampleFunc.api); // Logs the API Object from above.
 
-var result = exampleFunc({
+var result = $exampleFunc({
   a: 1,
   b: 2,
 }, true);
