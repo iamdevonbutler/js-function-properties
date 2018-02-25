@@ -1,4 +1,4 @@
-# function-properties [![Build Status](https://travis-ci.org/iamdevonbutler/function-properties.svg?branch=master)](https://travis-ci.org/iamdevonbutler/function-properties)
+# js-function-properties [![Build Status](https://travis-ci.org/iamdevonbutler/js-function-properties.svg?branch=master)](https://travis-ci.org/iamdevonbutler/js-function-properties)
 
 Add properties to functions using Proxies for API documenation and other stuffs.
 
@@ -6,12 +6,12 @@ Useful for libraries w/ a need to deliver convenient API access.
 
 ## Installation
 ```
-npm i --save function-properties
+npm i --save js-function-properties
 ```
 
 ## Example
 ```javascript
-const functionProperties = require('function-properties');
+const functionProperties = require('js-function-properties');
 
 var exampleFunc = function(obj, setting) {};
 

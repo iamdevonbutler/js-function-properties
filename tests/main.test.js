@@ -17,7 +17,7 @@ const func = () => {
 
 var $func = lib(func, obj);
 
-describe('function-properties tests', () => {
+describe('js-function-properties tests', () => {
   it ('should return the api at .api', () => {
     expect($func.api).to.eql(obj.api);
   });
