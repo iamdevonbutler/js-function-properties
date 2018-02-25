@@ -1,6 +1,6 @@
 {
   "name": "function-properties",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "description": "Add properties to functions using Proxies for API documenation and other stuffs",
   "main": "lib/index.js",
   "directories": {

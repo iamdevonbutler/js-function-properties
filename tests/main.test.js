@@ -24,6 +24,15 @@ describe('function-properties tests', () => {
   it ('should return the docs at .docs', () => {
     expect($func.docs).to.eql(obj.docs);
   });
+  it ('should throw when accessing an invalid property', () => {
+    try {
+      $func.a;
+      throw 'Needs to be an error';
+    }
+    catch (e) {
+      expect(e).to.be.an('error');
+    }
+  });
   it ('should run the function normally', () => {
     expect($func()).to.eql(func());
   });
