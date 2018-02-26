@@ -4,6 +4,8 @@ Add properties to functions using Proxies for API documenation and other stuffs.
 
 Useful for libraries w/ a need to deliver convenient API access.
 
+**engines: node >= 9.x**
+
 ## Installation
 ```
 npm i --save js-function-properties

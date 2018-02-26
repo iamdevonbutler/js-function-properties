@@ -1,6 +1,6 @@
 {
   "name": "js-function-properties",
-  "version": "0.2.1",
+  "version": "0.1.0",
   "description": "Add properties to functions using Proxies for API documenation and other stuffs",
   "main": "lib/index.js",
   "directories": {
@@ -29,5 +29,8 @@
   "devDependencies": {
     "chai": "4.1.2",
     "mocha": "5.0.1"
+  },
+  "engines": {
+    "node": ">=9.0.0"
   }
 }
