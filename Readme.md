@@ -1,6 +1,6 @@
 # js-function-properties [![Build Status](https://travis-ci.org/iamdevonbutler/js-function-properties.svg?branch=master)](https://travis-ci.org/iamdevonbutler/js-function-properties)
 
-Add properties to functions using Proxies for API documenation and other stuffs.
+Add properties to functions using Proxies - for API documentation, and other stuffs.
 
 Useful for libraries w/ a need to deliver convenient API access.
 
